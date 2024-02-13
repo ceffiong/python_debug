@@ -1,4 +1,4 @@
-# Exercise 1 Wrong output. Find an fix the problem
+# Exercise 1 Wrong output. Find and fix the problem
 def is_odd_number(num):
   if num % 2 == 0:
     return True 
@@ -10,7 +10,7 @@ print(is_odd_number(7)) # Expected True
 
 
 
-# Exercise 2 Wrong output. Find an fix the problem
+# Exercise 2 Wrong output. Find and fix the problem
 def calculate_divide(number, divisor):
   return number // divisor
 
@@ -19,11 +19,13 @@ print(calculate_divide(10, 3)) # Expected 3.33
 
 # Exercise 3: Read the error output and fix the bug
 def greet_user(name):
-   result = f"Hello
+   result = f"Hello {name}"
     return result
 
+print(greet_user("John")) # Expected: Hello John
 
-# Exercise 4: This program converts a user's username to their email address.
+
+# Exercise 4: This program converts a username to an email address, but it's buggy. Try to find and fix the bug(s).
 
 # Remove special characters and space from the username
 def remove_special_char(username):
