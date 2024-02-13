@@ -1,3 +1,7 @@
+# IMPORTANT
+# (1) For each exercise, copy the code to https://www.online-python.com/ and try it out. 
+# (2) Do not use AI or any debugging tool for these exercises. 
+
 # Exercise 1 Wrong output. Find and fix the problem
 def is_odd_number(num):
   if num % 2 == 0:
